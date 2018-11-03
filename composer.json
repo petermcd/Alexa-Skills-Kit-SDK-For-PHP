@@ -1,0 +1,26 @@
+{
+  "name": "rock_profile/alexa_skills_kit_for_php",
+  "description": "PHP Framework for creating alexa skills",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter McDonald",
+      "email": "admin@rockprofile.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alexa_Bible\\": ""
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "6.0.8",
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "*",
+    "ext-json": "*"
+  }
+}
