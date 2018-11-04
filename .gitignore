@@ -1,0 +1,5 @@
+#Composer directory.
+vendor/
+
+#PHP Storm config folder.
+.idea/
